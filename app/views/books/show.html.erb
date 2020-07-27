@@ -1,0 +1,13 @@
+<section class="single-book">
+  <section class="single-book-content">
+    <p>
+      <strong>Title:</strong>
+      <%= @book.title %>
+    </p>
+    <p>
+      <strong>Body:</strong>
+      <%= @book.body %>
+    </p>
+  </section>
+<%= link_to "Edit", edit_book_path(@book) %>　｜　 <%= link_to "Back", books_path %>
+</section>
